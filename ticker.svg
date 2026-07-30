@@ -16,15 +16,10 @@
   <rect y="55" width="900" height="1" fill="#1c3b3a"/>
 
   <g clip-path="url(#tickerClip)">
-    <text y="36" font-family="Consolas, 'Courier New', monospace" font-size="18" fill="#8fe3d4">
-      <animate attributeName="x" from="900" to="-1850" dur="22s" repeatCount="indefinite"/>
-      🚀 Built the ACPC AI Chatbot — dual-path Text-to-SQL + Vector RAG engine for Gujarat's admissions body &nbsp;&nbsp;•&nbsp;&nbsp;
-      🛰️ EXO-HUNTER — NASA Space Apps, top 1% recognition &nbsp;&nbsp;•&nbsp;&nbsp;
-      🧠 Shipping agentic RAG &amp; multi-agent pipelines &nbsp;&nbsp;•&nbsp;&nbsp;
-      🎓 GATE 2026 AIR 1718 (Data Science &amp; AI) &nbsp;&nbsp;•&nbsp;&nbsp;
-      🥊 Boxer in training &nbsp;&nbsp;•&nbsp;&nbsp;
-      ✍️ Writing deep technical dives on Medium &nbsp;&nbsp;•&nbsp;&nbsp;
-    </text>
+<text y="36" font-family="Consolas, 'Courier New', monospace" font-size="18" fill="#8fe3d4">
+  <animate attributeName="x" from="900" to="-1850" dur="22s" repeatCount="indefinite" />
+  🚀 Built the ACPC AI Chatbot — dual-path Text-to-SQL + Vector RAG engine for Gujarat's admissions body &#160;&#160;•&#160;&#160; 🛰️ EXO-HUNTER — NASA Space Apps, top 1% recognition &#160;&#160;•&#160;&#160; 🎓 GATE 2026 AIR 1718 (Data Science &amp; AI) &#160;&#160;•&#160;&#160; 🥊 Learning some boxing &#160;&#160;•&#160;&#160; ✍️ Writing deep technical dives on Medium &#160;&#160;•&#160;&#160;
+</text>
   </g>
 
   <rect width="900" height="56" fill="url(#fade)"/>

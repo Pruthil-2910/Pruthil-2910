@@ -1,16 +1,14 @@
 <div align="center">
 
-<!-- Animated wave header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:00c9a7&height=220&section=header&text=Pruthil%20Prajapati&fontSize=42&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Building%20Agentic%20RAG%20%26%20Multi-Agent%20Systems&descAlignY=55&descSize=18"/>
-
-<!-- Typing SVG - cycles through interests, loops forever -->
-<a href="#">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=00C9A7&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Agentic+RAG+%26+Multi-Agent+Systems;GATE+2026+AIR+1718+%7C+DS+%26+AI;Building+Production+AI+Systems;Boxer+%F0%9F%A5%8A+%7C+Writer+%E2%9C%8D%EF%B8%8F+%7C+Builder+%F0%9F%9B%A0%EF%B8%8F" alt="Typing SVG" />
-</a>
+<!-- Self-hosted animated hero banner: typewriter title + rotating subtitle + neural pulse + boxing glove.
+     No external API dependency, so it can't silently break like readme-typing-svg / vercel stat cards did. -->
+<img src="https://raw.githubusercontent.com/Pruthil-2910/Pruthil-2910/main/hero.svg" width="100%"/>
 
 </div>
 
-# 💫 About Me
+<br/>
+
+## 💫 About Me
 
 ```python
 class Pruthil:
@@ -29,8 +27,49 @@ class Pruthil:
 - 👯 Looking to collaborate on: **Open-source ML projects & data science applications**
 - 🤝 Looking for help with: **Advanced model optimization & fine-tuning strategies**
 - 🌱 Currently learning: **Deep RL techniques & advanced neural architectures**
-- 💬 Ask me about: **Search-augmented retrieval systems, Data pipelines, or Boxing**
-- ⚡ Fun fact: I balance boxing training splits with writing deep-dive technical articles.
+- 💬 Ask me about: **Search-augmented retrieval systems, data pipelines, or boxing**
+- ⚡ Fun fact: I balance boxing training splits with writing deep-dive technical articles
+
+<br/>
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/Pruthil-2910/Pruthil-2910/main/ticker.svg" width="100%"/>
+</div>
+
+<br/>
+
+## 🚀 Featured Work
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**🤖 ACPC AI Chatbot**
+Dual-path parallel inference engine (Text-to-SQL + Vector RAG with a reconciliation layer) built for Gujarat's government admissions body — a production-deployed system, not a toy demo.
+
+</td>
+<td width="50%" valign="top">
+
+**🛰️ EXO-HUNTER**
+Built for NASA Space Apps Challenge — earned top 1% recognition among global entries.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**📞 Voice AI Admissions Assistant**
+Outbound telephony-based voice agent for an ACPC Gujarat admissions helpdesk, built on a real telephony API — documented in a full technical write-up on Medium.
+
+</td>
+<td width="50%" valign="top">
+
+**🕵️ Sherlock**
+Prototype for AI-driven fraud detection during live interviews, featuring a Bayesian belief filter and tiered role classifier.
+
+</td>
+</tr>
+</table>
 
 <br/>
 
@@ -70,24 +109,10 @@ class Pruthil:
 
 <br/>
 
-## 📊 GitHub Stats (auto-refreshing)
+## 🐍 Contribution Snake
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Pruthil-2910&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pruthil-2910&layout=compact&theme=tokyonight&hide_border=true"/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Pruthil-2910&theme=tokyonight&hide_border=true"/>
-
-</div>
-
-<br/>
-
-## 🐍 Contribution Snake (animates every day, real GitHub Action)
-
-<div align="center">
-
-<!-- This renders after you set up the workflow below (one-time, ~2 min) -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Pruthil-2910/Pruthil-2910/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Pruthil-2910/Pruthil-2910/output/github-contribution-grid-snake.svg" />
@@ -98,20 +123,6 @@ class Pruthil:
 
 <br/>
 
-## 🏆 GitHub Trophies
-
 <div align="center">
-
-![](https://github-profile-trophy.vercel.app/?username=Pruthil-2910&theme=algolia&no-frame=true&margin-w=8&column=7)
-
-</div>
-
-<br/>
-
-<div align="center">
-
-<img src="https://komarev.com/ghpvc/?username=Pruthil-2910&style=for-the-badge&color=00c9a7&label=Profile+Views"/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c9a7,100:0f2027&height=100&section=footer"/>
-
+<img src="https://raw.githubusercontent.com/Pruthil-2910/Pruthil-2910/main/footer.svg" width="100%"/>
 </div>

@@ -1,0 +1,31 @@
+<svg viewBox="0 0 900 56" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="tickerClip">
+      <rect x="0" y="0" width="900" height="56"/>
+    </clipPath>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0a0e17" stop-opacity="1"/>
+      <stop offset="6%" stop-color="#0a0e17" stop-opacity="0"/>
+      <stop offset="94%" stop-color="#0a0e17" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0a0e17" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="56" fill="#0a0e17"/>
+  <rect y="0" width="900" height="1" fill="#1c3b3a"/>
+  <rect y="55" width="900" height="1" fill="#1c3b3a"/>
+
+  <g clip-path="url(#tickerClip)">
+    <text y="36" font-family="Consolas, 'Courier New', monospace" font-size="18" fill="#8fe3d4">
+      <animate attributeName="x" from="900" to="-1850" dur="22s" repeatCount="indefinite"/>
+      🚀 Built the ACPC AI Chatbot — dual-path Text-to-SQL + Vector RAG engine for Gujarat's admissions body &nbsp;&nbsp;•&nbsp;&nbsp;
+      🛰️ EXO-HUNTER — NASA Space Apps, top 1% recognition &nbsp;&nbsp;•&nbsp;&nbsp;
+      🧠 Shipping agentic RAG &amp; multi-agent pipelines &nbsp;&nbsp;•&nbsp;&nbsp;
+      🎓 GATE 2026 AIR 1718 (Data Science &amp; AI) &nbsp;&nbsp;•&nbsp;&nbsp;
+      🥊 Boxer in training &nbsp;&nbsp;•&nbsp;&nbsp;
+      ✍️ Writing deep technical dives on Medium &nbsp;&nbsp;•&nbsp;&nbsp;
+    </text>
+  </g>
+
+  <rect width="900" height="56" fill="url(#fade)"/>
+</svg>

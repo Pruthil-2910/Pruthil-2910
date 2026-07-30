@@ -1,0 +1,97 @@
+<svg viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17"/>
+      <stop offset="50%" stop-color="#0f2027"/>
+      <stop offset="100%" stop-color="#0a0e17"/>
+      <animate attributeName="x1" values="0%;100%;0%" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="100%;0%;100%" dur="10s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00c9a7"/>
+      <stop offset="100%" stop-color="#4dd8ff"/>
+    </linearGradient>
+    <clipPath id="typeClip">
+      <rect x="0" y="0" width="0" height="90">
+        <animate attributeName="width" values="0;560;560;560;0;0" keyTimes="0;0.28;0.55;0.75;0.85;1" dur="9s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="300" fill="url(#bg)"/>
+
+  <!-- faint neural grid backdrop -->
+  <g stroke="#1c3b3a" stroke-width="1" opacity="0.6">
+    <line x1="60" y1="230" x2="180" y2="190"/>
+    <line x1="180" y1="190" x2="300" y2="235"/>
+    <line x1="300" y1="235" x2="420" y2="185"/>
+    <line x1="60" y1="230" x2="300" y2="235"/>
+    <line x1="720" y1="200" x2="820" y2="170"/>
+    <line x1="720" y1="200" x2="800" y2="245"/>
+  </g>
+  <g fill="#00c9a7">
+    <circle cx="60" cy="230" r="4"><animate attributeName="r" values="4;7;4" dur="2s" begin="0s" repeatCount="indefinite"/></circle>
+    <circle cx="180" cy="190" r="4"><animate attributeName="r" values="4;7;4" dur="2s" begin="0.3s" repeatCount="indefinite"/></circle>
+    <circle cx="300" cy="235" r="4"><animate attributeName="r" values="4;7;4" dur="2s" begin="0.6s" repeatCount="indefinite"/></circle>
+    <circle cx="420" cy="185" r="4"><animate attributeName="r" values="4;7;4" dur="2s" begin="0.9s" repeatCount="indefinite"/></circle>
+    <circle cx="720" cy="200" r="4"><animate attributeName="r" values="4;7;4" dur="2s" begin="0.2s" repeatCount="indefinite"/></circle>
+    <circle cx="820" cy="170" r="4"><animate attributeName="r" values="4;7;4" dur="2s" begin="0.5s" repeatCount="indefinite"/></circle>
+    <circle cx="800" cy="245" r="4"><animate attributeName="r" values="4;7;4" dur="2s" begin="0.8s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- typewriter title -->
+  <g clip-path="url(#typeClip)">
+    <text x="60" y="90" font-family="Consolas, 'Courier New', monospace" font-size="46" font-weight="700" fill="url(#accent)" filter="url(#glow)">
+      &gt; Pruthil Prajapati_
+    </text>
+  </g>
+
+  <!-- blinking cursor -->
+  <rect x="618" y="52" width="4" height="42" fill="#00c9a7">
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="0.9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0" dur="0.001s" begin="9s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- rotating subtitle lines -->
+  <g font-family="Consolas, 'Courier New', monospace" font-size="21" fill="#c9d6d3">
+    <text x="62" y="145">
+      Building Agentic RAG &amp; Multi-Agent Systems
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.30;0.35" dur="9s" repeatCount="indefinite"/>
+    </text>
+    <text x="62" y="145">
+      GATE 2026 AIR 1718 (Data Science &amp; AI) · CPI 8.44
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.35;0.40;0.62;0.67" dur="9s" repeatCount="indefinite"/>
+    </text>
+    <text x="62" y="145">
+      Final-Year CE @ LDCE Ahmedabad · Hunting Product-Based AI Roles
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.67;0.72;0.97;1" dur="9s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- GATE badge -->
+  <g transform="translate(700,60)">
+    <rect x="-6" y="-26" width="185" height="42" rx="21" fill="none" stroke="#00c9a7" stroke-width="1.5" opacity="0.9">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.4s" repeatCount="indefinite"/>
+    </rect>
+    <text x="86" y="1" text-anchor="middle" font-family="Consolas, monospace" font-size="14" fill="#00c9a7">🎓 GATE AIR 1718</text>
+  </g>
+
+  <!-- boxing glove punch, bottom-right flourish -->
+  <g transform="translate(790,235)">
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="0,0;34,0;0,0" keyTimes="0;0.4;1" dur="1.6s" repeatCount="indefinite"/>
+      <ellipse cx="0" cy="0" rx="22" ry="18" fill="#e2574c"/>
+      <ellipse cx="-18" cy="2" rx="10" ry="10" fill="#e2574c"/>
+      <rect x="-30" y="-4" width="14" height="14" rx="4" fill="#c94a40"/>
+    </g>
+  </g>
+
+  <text x="790" y="270" text-anchor="middle" font-family="Consolas, monospace" font-size="12" fill="#5a716f">boxer 🥊</text>
+</svg>

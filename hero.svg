@@ -77,6 +77,6 @@
       <animate attributeName="opacity" values="0.5;1;0.5" dur="2.4s" repeatCount="indefinite"/>
     </rect>
     <circle cx="10" cy="-3" r="5" fill="#3ddc84"/>
-    <text x="26" y="1" font-family="Consolas, monospace" font-size="14" fill="#c9d6d3">Open to Product-Based AI Roles</text>
+    <text x="26" y="1" font-family="Consolas, monospace" font-size="14" fill="#c9d6d3">Open to AI Roles</text>
   </g>
 </svg>

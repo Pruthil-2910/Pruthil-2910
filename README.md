@@ -23,13 +23,6 @@ class Pruthil:
         return "boxing 🥊 + learning some basics of full-stack + writing deep-dives on Medium ✍️"
 ```
 
-- 🔭 Currently working on: **Advanced Agentic RAG pipelines & scalable multi-agent systems**
-- 👯 Looking to collaborate on: **Open-source ML projects & data science applications**
-- 🤝 Looking for help with: **Advanced model optimization & fine-tuning strategies**
-- 🌱 Currently learning: **Deep RL techniques & advanced neural architectures**
-- 💬 Ask me about: **Search-augmented retrieval systems, data pipelines, or boxing**
-- ⚡ Fun fact: I balance boxing training splits with writing deep-dive technical articles
-
 <br/>
 
 <div align="center">

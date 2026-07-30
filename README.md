@@ -38,19 +38,19 @@ class Pruthil:
 
 <br/>
 
-## 🚀 Featured Work
+## Featured Work
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**🤖 ACPC AI Chatbot**
+**ACPC AI Chatbot**
 Dual-path parallel inference engine (Text-to-SQL + Vector RAG with a reconciliation layer) built for Gujarat's government admissions body — a production-deployed system, not a toy demo.
 
 </td>
 <td width="50%" valign="top">
 
-**🛰️ EXO-HUNTER**
+**EXO-HUNTER**
 Built for NASA Space Apps Challenge — earned top 1% recognition among global entries.
 
 </td>
@@ -58,9 +58,14 @@ Built for NASA Space Apps Challenge — earned top 1% recognition among global e
 <tr>
 <td width="50%" valign="top">
 
-**📞 Voice AI Admissions Assistant**
+**Voice AI Admissions Assistant**
 Outbound telephony-based voice agent for an ACPC Gujarat admissions helpdesk, built on a real telephony API — documented in a full technical write-up on Medium.
 
+</td>
+<td width="50%" valign="top">
+
+**Fire detection using the RAG**
+Build a project where an idea behind it is the detecting the file using the retrieval score from the local vector db (enriched with the fire, spark and normal images)
 </td>
 
 </tr>

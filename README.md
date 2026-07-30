@@ -17,10 +17,10 @@ class Pruthil:
         self.focus = ["Agentic RAG", "Multi-Agent Systems", "LLM Inference"]
         self.gate_2026 = "AIR 1718 (Data Science & AI) | CPI: 8.44"
         self.currently_building = "Scalable multi-agent pipelines + retrieval reconciliation layers"
-        self.looking_for = "Product-based ML/AI roles"
+        self.looking_for = "ML/AI roles"
 
     def free_time(self):
-        return "boxing 🥊 + writing deep-dives on Medium ✍️"
+        return "boxing 🥊 + learning some basics of full-stack + writing deep-dives on Medium ✍️"
 ```
 
 - 🔭 Currently working on: **Advanced Agentic RAG pipelines & scalable multi-agent systems**
@@ -62,12 +62,7 @@ Built for NASA Space Apps Challenge — earned top 1% recognition among global e
 Outbound telephony-based voice agent for an ACPC Gujarat admissions helpdesk, built on a real telephony API — documented in a full technical write-up on Medium.
 
 </td>
-<td width="50%" valign="top">
 
-**🕵️ Sherlock**
-Prototype for AI-driven fraud detection during live interviews, featuring a Bayesian belief filter and tiered role classifier.
-
-</td>
 </tr>
 </table>
 
